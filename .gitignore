@@ -1,10 +1,16 @@
 .DS_Store
 *.weights
-
+.env
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
+
+#ignore
+/.chroma
+/.env
+.vercel
+
 
 # C extensions
 *.so

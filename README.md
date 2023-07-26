@@ -15,14 +15,8 @@ eye movement will be on a separate thread
 
 ---
 
-## Common Objects in COntext (COCO)
+## Captioning the image
 
-trained on COCO dataset (common objects in context) from Microsoft. It is capable of detecting 80 common objects. See the full list [here](https://github.com/arunponnusamy/object-detection-opencv/blob/master/yolov3.txt).
-
-## Download the files
-
-``` bash
-wget https://pjreddie.com/media/files/yolov3.weights
-```
+The code uses OpenAi's image recognition to return a description of what is in an image provided.
 
 ---
